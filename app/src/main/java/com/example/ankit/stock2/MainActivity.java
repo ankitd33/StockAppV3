@@ -226,8 +226,8 @@ public class MainActivity extends AppCompatActivity {
         else if(view.getId() == R.id.volume)
         {
             text = "Volume";
-            tb.setTextOn("Show " + text + " Average");
             tb.setTextOff("Hide " + text + " Average");
+            tb.setTextOn("Show " + text + " Average");
             tb.setChecked(tb.isChecked());
             setToggleButtonListener(tb, volumeaverageseries);
             while(closedcb.isChecked())
